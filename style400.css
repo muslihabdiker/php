@@ -1,0 +1,99 @@
+@media (min-width: 268px) and (max-width: 400px) {
+    img {
+        flex-direction: row;      
+        flex-wrap: wrap;
+        flex-basis: 350px; /* width: 350px; */
+
+        width: 6.7cm;
+      height: auto;
+      }
+      .App {
+        display: flex;
+        flex-direction: row;      
+        flex-wrap: wrap;
+        width: fit-content;
+        gap: 0.4cm;
+        margin: 0cm;
+        padding: 0.1cm;
+      }
+      body {
+        background-color: rgb(255, 255, 255);
+        padding: 0cm;
+        margin: 0cm;
+        scroll-behavior: smooth;
+        overflow: hidden;
+    }
+ 
+    .formI{
+        position: relative;
+        background-color: white;
+        color: black;
+        font-size: larger;
+        font-weight: bold;
+        height: 0.8cm;
+        width: 6.7cm;
+        left: 0cm;
+        border-style: solid;
+        border-width: 0.02cm;
+        border-radius: 1cm;
+        margin: 0.2cm;
+        width: 3cm;
+        font-size:x-large;
+      }
+      .search{
+        position: relative;
+        background-color: white;
+        color: black;
+        font-size: larger;
+        font-weight: bold;
+        height: 0.8cm;
+        left: 0cm;
+        border-style: solid;
+        border-width: 0.01cm;
+        border-radius: 1cm;
+        margin: 0.2cm;
+        text-align: center;
+        width: 6.7cm;
+        border-radius: 1cm;
+        margin: 0.1cm;
+        padding: 0.1cm;
+      }
+      .search::placeholder {
+        font-size:x-small;
+     
+      }
+ 
+ 
+      .exchange-arrow {
+        display: none;
+      }
+      .perfect {
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        background-color: rgb(0, 0, 0);
+        backdrop-filter: blur(3px);
+        border-style: solid;
+        border-width: 0.03cm;
+        border-color: white;
+        border-radius: 0.3cm;
+        left: 0%;
+        width: 6.7cm;
+        margin: 0cm;
+      }
+      .bpay {
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        background-color: rgb(0, 0, 0);
+        backdrop-filter: blur(3px);
+        border-style: solid;
+        border-width: 0.03cm;
+        border-color: white;
+        border-radius: 0.3cm;
+        left: 0%;
+        width: 6.7cm;
+        margin: 0cm;
+        
+      }
+  }

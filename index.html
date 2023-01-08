@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="exchangeArrow.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="style150.css?v=1.0">
+<link rel="stylesheet" href="style284.css?v=1.0">
+<link rel="stylesheet" href="style317.css?v=1.0">
+<link rel="stylesheet" href="style400.css?v=1.0">
+<link rel="stylesheet" href="style500.css?v=1.0">
+<title>sfa</title>
+ </head>
+<body id="body">
+<div class="sidePanelResponsive"> 
+  <input id="search" type="text" placeholder="Order Tracking Number" class="search" onkeyup="searchDatabase(this.value)"><br>
+  <button type="button" id="order" class="order" onclick="orderpageShow()">Order</button>
+</div>
+
+<div class="App" id="App">
+    <form action="" class="perfect" id="mpesa">
+        <h1>Pay</h1>
+        <img src="recources/images/mpesa.jpeg" alt="mpesa" id="mpesaIMG" >
+        <input type="number" id="perfect" min="100" max="10000" step="1" id="amount"  class="formI" placeholder="Pay" oninput="calculate()" required><br>     
+    </form>
+    <img class="exchange-arrow" src="recources/images/exchange.png" alt="">
+    <form action="" class="bpay" id="perfectmoney">
+        <h1>Receive</h1>
+        <img src="recources/images/perfect.png" alt="perfect money" id="perfectIMG">
+        <input type="number"  id="bpay" min="100" max="10000" step="1" id="amount" class="formI" placeholder="Receive" disabled ><br>
+    </form>
+</div>
+
+
+
+<!-- scripts -->
+
+
+</body>
+</html>
